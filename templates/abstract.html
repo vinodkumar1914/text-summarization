@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstract</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+<style>*{
+    background-color: azure;
+}
+.body{
+    background-color: azure;
+}
+
+.header{
+    text-align: center;
+    word-spacing: 20%;
+    height: fit-content;
+    color:blue;
+     width:100%; 
+     height:10%;
+     font-size: 20px;
+}
+#para{
+    justify-content: baseline;
+    text-align: justify;
+    flex-direction: column;
+    flex: auto;
+    color: #2AAD0C;
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height-step: 3em;
+    font-size: 21px;
+}
+.center{
+    padding-top: 0.6em;
+    font-size:60px;
+    font-family:forte;
+    text-align:center; 
+    width:"600px"
+}
+#pad{
+    padding-left: 2em;
+}
+#textare{
+    padding-left: 3em;
+}
+
+.lable{
+    color:#15D0BE;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 0.4em;
+}
+</style>
+</head>
+<body class="body">
+    <h1 class="center"><font color="#15D0BE">Text</font><font color="#BDD015"> Summarizer</font></h1>
+    <table class="header" >
+		<tr >
+
+			<td><a href="index.html">Home</a></td>
+			<td><a href="abstract.html">Abstract</a></td>
+			<td><a href="ref.html">Referances</a> </td>
+
+		</tr>
+	</table>
+    <h3 id="pad"><font color="#15D0BE" size="8px" align:"left" style="font-family:Comic Sans MS">Abstract </font></h3>
+    <p id="para">Nowadays there is a huge demand for text summarization tools since the main objective of a text summarization system is 
+        to identify the most important information from the given text and present it to the end users. In this project, we have deployed
+         a web application that takes any general paragraph as input to give a summarized version of that particular paragraph by 
+         identifying text features and also translating the summarized text into any language. In order, to summarize the text we have 
+         proposed a hybrid model that is based upon Luhn and Textrank algorithms which are extractive summarization techniques and the 
+         Pegasus model which is an abstractive summarization technique. This hybrid model was also compared with BERT, XLNet, and GPT2 
+         models based on their ROGUE scores. The generated optimal paragraph is sent as input to the translator which translates the 
+         summarized text into any language. In this project, we have also tried to achieve better results from the proposed hybrid model 
+         when compared to other existing models. Firstly, the text rank algorithm is used to rank the sentences based on their priority, 
+         and then abstractive summarization is performed on this paragraph using the Pegasus model to generate a new summary with good 
+         context which is then passed on to the Luhn algorithm which generates the final optimal paragraph. This text summarizer deployed 
+         using a web app has various applications such as newsletters, social media content generation, etc.
+    </p>
+</body>
+</html>

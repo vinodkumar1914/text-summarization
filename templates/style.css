@@ -1,0 +1,47 @@
+*{
+    background-color: azure;
+}
+.body{
+    background-color: azure;
+}
+
+.header{
+    text-align: center;
+    word-spacing: 20%;
+    height: fit-content;
+    color:blue;
+     width:100%; 
+     height:10%;
+     font-size: 20px;
+}
+#para{
+    justify-content: baseline;
+    text-align: justify;
+    flex-direction: column;
+    flex: auto;
+    color: #2AAD0C;
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height-step: 3em;
+    font-size: 21px;
+}
+.center{
+    padding-top: 0.6em;
+    font-size:50px;
+    font-family:forte;
+    text-align:center; 
+    width:"600px"
+}
+#pad{
+    padding-left: 2em;
+}
+#textare{
+    padding-left: 3em;
+}
+
+.lable{
+    color:#15D0BE;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 0.4em;
+}
